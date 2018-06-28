@@ -38,22 +38,13 @@ Avaliação:
 
 #### 2.1.1 Requerimentos para o teste
 
-2.1.1.1 Framework de view
+        2.1.1.1 Framework de view: React (**Necessário**)
 
-**Necessário**: React
+        2.1.1.2 Framework de estado: Redux (**Sugerido**)
 
-2.1.1.2 Framework de estado
+        2.1.1.3 Framework de rotas: w/e
 
-**Sugerido**: Redux
-
-2.1.1.3 Framework de rotas:
-
-Sem sugestão.
-
-2.1.1.4 Preprocessador de CSS:
-
-**Sugerido**: SASS
-
+        2.1.1.4 Preprocessador de CSS: SASS (**Sugerido**)
 
 
 #### 2.1.2 Pontuação Bônus
