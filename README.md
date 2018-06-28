@@ -45,14 +45,14 @@
 
 #### 2.1.2 Pontuação Bônus
 
-    2.1.2.1 Apresentar projeto no [Docker](https://www.docker.com/)
+- 2.1.2.1 Apresentar projeto no [Docker](https://www.docker.com/)
 
-    2.1.2.2 Utilizar [TypeScript](https://www.typescriptlang.org/)
+- 2.1.2.2 Utilizar [TypeScript](https://www.typescriptlang.org/)
 
-    2.1.2.3 Utilizar [webpack](https://webpack.js.org/) e produzir um único arquivo de _output_
+- 2.1.2.3 Utilizar [webpack](https://webpack.js.org/) e produzir um único arquivo de _output_
 
-    2.1.2.4 Utilizar [socket.io](https://socket.io) para criar um grafico _real time_ do mercado (endpoint fornecido pela API acima)
+- 2.1.2.4 Utilizar [socket.io](https://socket.io) para criar um grafico _real time_ do mercado (endpoint fornecido pela API acima)
 
-    2.1.2.5 Utilizar gráficos D3.js
+- 2.1.2.5 Utilizar gráficos D3.js
 
-    2.1.2.6 Utilizar tipos imutáveis ou [Immutable-JS](https://facebook.github.io/immutable-js/)
+- 2.1.2.6 Utilizar tipos imutáveis ou [Immutable-JS](https://facebook.github.io/immutable-js/)
