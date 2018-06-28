@@ -22,11 +22,19 @@ Avaliação:
 
 ## 2.0 Tarefas
 
-2.0.1 Clonar o repositório (_commitar_ o mais frequente possível);
+2.1 Clonar o repositório (_commitar_ o mais frequente possível);
 
-2.0.2 Usar a API aberta em [https://iextrading.com](https://iextrading.com) para desenvolver um dashboard simples com 2 views/rotas.
+2.2 Usar a API aberta em [https://iextrading.com](https://iextrading.com) para desenvolver um dashboard simples com 2 views/rotas.
+
+2.2.1 Mostrar top 20 stocks em preco e um campo de busca
+
+2.2.2 Mostar um stock especifico com todos os dados que achar relevante
+
+--
 
 ### 2.1 Tecnologia
+
+-
 
 #### 2.1.1 Requerimentos para o teste
 
@@ -46,6 +54,8 @@ Sem sugestão.
 
 **Sugerido**: SASS
 
+-
+
 #### 2.1.2 Pontuação Bônus
 
 2.1.2.1 Apresentar projeto no [Docker](https://www.docker.com/)
@@ -54,8 +64,8 @@ Sem sugestão.
 
 2.1.2.3 Utilizar [webpack](https://webpack.js.org/) e produzir um único arquivo de _output_
 
-2.1.2.4 Utilizar [socket.io](https://socket.io) para gráficos _real time_ (consumindo a API)
+2.1.2.4 Utilizar [socket.io](https://socket.io) para criar um grafico _real time_ do mercado (endpoint fornecido pela API acima)
 
-2.1.2.5 Utilizar gráficos 3D
+2.1.2.5 Utilizar gráficos D3.js
 
 2.1.2.6 Utilizar tipos imutáveis ou [Immutable-JS](https://facebook.github.io/immutable-js/)
