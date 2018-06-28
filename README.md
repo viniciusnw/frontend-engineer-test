@@ -26,9 +26,9 @@ Avaliação:
 
 2.2 Usar a API aberta em [https://iextrading.com](https://iextrading.com) para desenvolver um dashboard simples com 2 views/rotas.
 
-  2.2.1 Mostrar top 20 stocks em preco e um campo de busca
+    2.2.1 Mostrar top 20 stocks em preco e um campo de busca
 
-  2.2.2 Mostar um stock especifico com todos os dados que achar relevante
+    2.2.2 Mostar um stock especifico com todos os dados que achar relevante
 
 --
 
