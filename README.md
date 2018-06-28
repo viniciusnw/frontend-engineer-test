@@ -34,7 +34,7 @@ Avaliação:
 
 ### 2.1 Tecnologia
 
--
+
 
 #### 2.1.1 Requerimentos para o teste
 
@@ -54,7 +54,7 @@ Sem sugestão.
 
 **Sugerido**: SASS
 
--
+
 
 #### 2.1.2 Pontuação Bônus
 
