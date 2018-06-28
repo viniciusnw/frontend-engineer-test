@@ -23,10 +23,8 @@
 2.1 Clonar o repositório (_commitar_ o mais frequente possível);
 
 2.2 Usar a API aberta em [https://iextrading.com](https://iextrading.com) para desenvolver um dashboard simples com 2 views/rotas.
-
-    2.2.1 Mostrar top 20 stocks em preco e um campo de busca
-
-    2.2.2 Mostar um stock especifico com todos os dados que achar relevante
+ - 2.2.1 Mostrar top 20 stocks em preco e um campo de busca
+ - 2.2.2 Mostar um stock especifico com todos os dados que achar relevante
 
 --
 
@@ -36,13 +34,13 @@
 
 #### 2.1.1 Requerimentos para o teste
 
-        2.1.1.1 Framework de view: React (**Necessário**)
+- 2.1.1.1 Framework de view: React (**Necessário**)
 
-        2.1.1.2 Framework de estado: Redux (**Sugerido**)
+- 2.1.1.2 Framework de estado: Redux (**Sugerido**)
 
-        2.1.1.3 Framework de rotas: w/e
+- 2.1.1.3 Framework de rotas: w/e
 
-        2.1.1.4 Preprocessador de CSS: SASS (**Sugerido**)
+- 2.1.1.4 Preprocessador de CSS: SASS (**Sugerido**)
 
 
 #### 2.1.2 Pontuação Bônus
