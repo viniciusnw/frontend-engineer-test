@@ -2,24 +2,29 @@
 
 ## 1.0 Objetivos
 
-1.1 Testar capacidade do candidato de seguir instruções
+Avaliação:
 
-1.2 Testar qualidade, lógica e semantinca do código
+1.1 Capacidade de seguir instruções
 
-1.3 Testar uso de apis REST
+1.2 Qualidade, lógica e semântica do código
 
-1.4 Testar conhecimento das ferramentas citadas
+1.3 Utilização de APIs REST
 
-1.5 Testar capacidade do candidato de finalizar um projeto
+1.4 Nível de conhecimento das ferramentas utilizadas
 
-1.6 Testar uso do git como controle de versão
+1.5 Capacidade de finalização de um projeto
 
-1.7 Testar qualidade dos testes
+1.6 Uso do Git como controle de versão
+
+1.7 Qualidade dos testes
 
 --
 
-## 2.0 Tarefa
-Usar a api aberta em https://iextrading.com e desenvolver um dashboard simples com 2 views/rotas.
+## 2.0 Tarefas
+
+2.0.1 Clonar o repositório (_commitar_ o mais frequente possível);
+
+2.0.2 Usar a API aberta em [https://iextrading.com](https://iextrading.com) para desenvolver um dashboard simples com 2 views/rotas.
 
 ### 2.1 Tecnologia
 
@@ -41,4 +46,16 @@ Sem sugestão.
 
 **Sugerido**: SASS
 
-#### 2.1.2 Pontuação Bonus
+#### 2.1.2 Pontuação Bônus
+
+2.1.2.1 Apresentar projeto no [Docker](https://www.docker.com/)
+
+2.1.2.2 Utilizar [TypeScript](https://www.typescriptlang.org/)
+
+2.1.2.3 Utilizar [webpack](https://webpack.js.org/) e produzir um único arquivo de _output_
+
+2.1.2.4 Utilizar [socket.io](https://socket.io) para gráficos _real time_ (consumindo a API)
+
+2.1.2.5 Utilizar gráficos 3D
+
+2.1.2.6 Utilizar tipos imutáveis ou [Immutable-JS](https://facebook.github.io/immutable-js/)
