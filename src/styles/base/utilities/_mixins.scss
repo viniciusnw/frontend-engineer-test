@@ -1,0 +1,86 @@
+/* HELPERS */
+
+// transitions
+// ex: @include transition(color .3s ease);
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin transform($args...) {
+  -webkit-transform: $args;
+  -moz-transform: $args;
+  -ms-transform: $args;
+  -o-transform: $args;
+ transform: $args;
+}
+
+@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  -ms-box-shadow: $args;
+  -o-box-shadow: $args;
+ box-shadow: $args;
+}
+
+@mixin user-select($args...) {
+  -webkit-user-select: $args;
+  -moz-user-select: $args;
+  -ms-user-select: $args;
+  -o-user-select: $args;
+   user-select: $args;
+   -khtml-user-select: none;
+
+}
+
+
+
+// opacity
+// ex: @include opacity(0.8);
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+// font functions
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+// font mixins
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin font-custom($font-weight: 300){
+  font-family: $font-base;
+  font-weight: $font-weight;
+}
+
+@mixin font-structure($line-height:1.2){
+  line-height: $line-height
+}
+
+@mixin font-spacing($letter-spacing: -1.2){
+  letter-spacing: $letter-spacing + px;
+}
+
+
+// placeholder
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'max-icons';
+    src:  url('https://d1azc1qln24ryf.cloudfront.net/124302/MaxIcons/max-icons.eot?8186ts');
+    src:  url('https://d1azc1qln24ryf.cloudfront.net/124302/MaxIcons/max-icons.eot?8186ts#iefix') format('embedded-opentype'),
+      url('https://d1azc1qln24ryf.cloudfront.net/124302/MaxIcons/max-icons.woff2?8186ts') format('woff2'),
+      url('https://d1azc1qln24ryf.cloudfront.net/124302/MaxIcons/max-icons.ttf?8186ts') format('truetype'),
+      url('https://d1azc1qln24ryf.cloudfront.net/124302/MaxIcons/max-icons.woff?8186ts') format('woff'),
+      url('https://d1azc1qln24ryf.cloudfront.net/124302/MaxIcons/max-icons.svg?8186ts#max-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'max-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon{
+  &-user{
+    font-size: 18px;
+    &:before{
+      content: "\e90f";
+      top: 5px;
+      position: absolute;
+      left: 2px;
+    }
+  }
+  &-question{
+    font-size: 18px;
+    &:before{
+      content: "\e902";
+      top: 5px;
+      position: absolute;
+      left: 0;
+    }
+  }
+  &-miles{
+    font-size: 24px;
+    &:before{
+      content: "\e90a";
+      top: 3px;
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+
+
+i{
+    top: 50%;
+    position: relative;
+    color: #1abc9c;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    display: inline-block;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+}

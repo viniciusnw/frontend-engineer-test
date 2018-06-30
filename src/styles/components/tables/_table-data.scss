@@ -1,0 +1,24 @@
+.table-data{
+    &-row{
+        background-color: #FFF;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 14px;
+        -webkit-box-shadow: 0 2px 1px rgba(0,0,0,.1);
+        box-shadow: 0 2px 1px rgba(0,0,0,.1);
+        padding: 1.5vw 0;
+    }
+
+    &-head{
+        background-color: $color-secondary;
+        margin-bottom: 0;
+
+        &-title{
+            color: #FFF;
+        }
+    }
+
+    .btn{
+        margin-bottom: 10px;
+    }
+}

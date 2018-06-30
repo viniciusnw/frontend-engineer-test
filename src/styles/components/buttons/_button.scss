@@ -1,0 +1,32 @@
+.btn{
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn--primary{
+    background-color: $color-primary;
+    -webkit-box-shadow: 0 3px 0 #15987e;
+    color: #FFF;
+    width: auto;
+}
+
+.btn--line{
+    border: 1px solid $color-secondary;
+    color: $color-secondary;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+@media (max-width: 992px) {
+    .btn{
+        display: block;
+        width: 100%;
+    }
+ }
