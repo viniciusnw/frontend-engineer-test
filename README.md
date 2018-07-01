@@ -61,11 +61,11 @@
 
 ### 🗜 Run with WebpackServer
 
-##### Instal dependencies
+#### Instal dependencies
 ```
 $ npm install
 ```
-##### Run server
+#### Run server
 ```
 $ npm run start
 ```
@@ -74,12 +74,12 @@ $ npm run start
 
 ### 🗜 Run with Docker
 
-##### Docker image Build
+#### Docker image Build
 
 ```j
 docker build -t tracksale:php5 docker/
 ```
-##### Docker start container
+#### Docker start container
 após o build da imagem...
 ```java
 docker run -it --rm \
