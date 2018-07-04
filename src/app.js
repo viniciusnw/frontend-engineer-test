@@ -70,11 +70,6 @@ class App extends Component {
             .catch(err =>{})
     }
 
-    // handle with input text
-    handleChange = (e) => {
-        this.props.keyPress(e.target.value)
-    }
-
     // render Item
     renderItem () {
         return this.state.data.map(item => {
@@ -135,7 +130,6 @@ class App extends Component {
             <AppContent
                 getDataSymbol={this.getDataSymbol}
                 getDataList={this.getDataList}
-                handleChange={this.handleChange}
                 renderItem={this.renderItem()}
             />
         );

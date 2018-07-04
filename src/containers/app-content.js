@@ -5,20 +5,20 @@ import PropTypes from 'prop-types';
 import NavBar from './../components/navbar';
 import SearchBar from './../components/search-bar';
 import TableData from './../components/table-data';
+import { Store } from './../store/index';
 
 const AppContent = ({
     getDataSymbol,
     getDataList,
-    handleChange,
     renderItem
 }) => {
   return (
     <div>
         <NavBar />
         <SearchBar
+            store={Store}
             getDataSymbol={getDataSymbol}
             getDataList={getDataList}
-            handleChange={handleChange}
         />
 
         <div className='container-fluid'>
