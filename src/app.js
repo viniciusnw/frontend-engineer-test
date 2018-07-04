@@ -1,6 +1,9 @@
 'use strict';
 
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { keyPress } from './actions/index';
 import axios from 'axios';
 import style from './styles/styles.scss';
 
@@ -19,6 +22,7 @@ class App extends Component {
     // load airports data
     componentWillMount () {
         this.getDataList(document.createEvent('Event'));
+        // console.log(this);
     }
 
     // get data from api
@@ -29,8 +33,8 @@ class App extends Component {
         const API = 'https://api.iextrading.com/1.0/';
 
         axios.all([
-            axios.get(`${API}/stock/${this.state.symbol}/quote`),
-            axios.get(`${API}/stock/${this.state.symbol}/logo`)
+            axios.get(`${API}/stock/${this.props.symbol}/quote`),
+            axios.get(`${API}/stock/${this.props.symbol}/logo`)
         ])
         .then(axios.spread((quoteRes, logoRes) => {
             this.setState({
@@ -68,10 +72,7 @@ class App extends Component {
 
     // handle with input text
     handleChange = (e) => {
-        // console.log(e)
-        this.setState({
-            symbol: e.target.value
-        });
+        this.props.keyPress(e.target.value)
     }
 
     // render Item
@@ -141,4 +142,7 @@ class App extends Component {
     }
 }
 
-export default App;
+const mapStateToProps = store => ({ symbol: store.symbolState.symbol});
+const mapDispatchToProps = dispatch => bindActionCreators({ keyPress }, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);

@@ -3,12 +3,14 @@
 import App from './app';
 import React from 'react';
 import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import { Store } from './store';
 import { AppContainer } from 'react-hot-loader';
 
 const renderApp = (NextApp) => {
     render(
         <AppContainer>
-            <NextApp />
+            <NextApp store={Store} />
         </AppContainer>,
         document.querySelector('[data-js="app"]')
     );
